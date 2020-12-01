@@ -9,7 +9,7 @@ public class SmartPhone extends MusicPhone {
 			playApp();
 		} else if ("통화".equals(str)) {
 			super.execute(str);
-		} else {
+		} else if ("음악".equals(str)) {
 			download();
 		}
 	}
